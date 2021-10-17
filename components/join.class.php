@@ -9,7 +9,7 @@
           </button>
         </div>
         <div class="modal-body p-4">
-					<form>
+					<form action="#" id="joinsubject">
                         <div class="form-group border_bottom_1px">
                                     <label style="opacity: .5;" for="exampleInputEmail1">You are currently logged in us: </label>
                                     <div class="messages_chat mb_30">
@@ -19,7 +19,7 @@
 												<div class="message_preview_thumb">
 													<img style="float: left; width: 60px; border-radius: 50px;" src="pages/img/messages/1.png" alt="">
 													<div class="messges_info m-2">
-													<h4 class="l-4">&nbsp;&nbsp;&nbsp;Charles Lydon Abiero</h4>
+													<h4 class="l-4">&nbsp;&nbsp;&nbsp;<?=$_SESSION['user']['fullname'] ?></h4>
 													<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lydon.charles.abiero@gmail.com</label>
 													<button class="btn btn-light p-1" style="display: inline-block; font-size: 13px;">Switch Account</button>
 												</div>
@@ -35,7 +35,7 @@
                                     <h2>Class code</h2>
                                 <div class="messages_chat mb_30">
 									<label>Ask your teacher for the class code, then enter it here.</label>
-									<input style="font-size: 30px; width: 400px;" type="text" class="form-control" name="inputText" id="inputText" placeholder="...">
+									<input style="font-size: 30px; width: 400px;" type="text" class="form-control" name="subject_code" id="inputText" placeholder="...">
                         		</div>
 								<h6>*Before joining a class</h6>
 								<ul class="p-3">
@@ -54,7 +54,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Join Class</button>
+          <button type="button" class="btn btn-primary"  onclick="joinSubject()">Join Class</button>
         </div>
       </div>
     </div>

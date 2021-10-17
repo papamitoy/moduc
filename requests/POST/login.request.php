@@ -21,7 +21,7 @@ if(isset($_POST['loginemail']) and isset($_POST['loginPassword'])){
         $data = [
             "success" => true,
             "message" => "Login Successfully",
-            "data" =>  $stmt->fetchAll(),
+            "data" =>  $stmt->fetch(),
         ];
         $_SESSION['user'] = $data['data'];
         echo json_encode($data);

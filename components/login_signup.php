@@ -2,7 +2,7 @@
 
             <!-- Login Form -->
             <div class="login form-peice switched">
-               <form class="login-form" action="#" method="post" id="loginForm">
+               <form class="login-form" action="#" method="post" id="loginForm" >
                   <div class="form-group">
                      <label for="loginemail">Email Adderss</label>
                      <input type="email" name="loginemail" id="loginemail" required>
@@ -14,7 +14,7 @@
                   </div>
 
                   <div class="CTA">
-                     <input type="submit" value="Login">
+                     <input type="button" value="Login" onclick="loginAuth()" >
                      <a href="#" class="switch">I'm New</a>
                   </div>
                </form>
@@ -30,6 +30,11 @@
                      <input type="text" name="name" id="name" class="name">
                      <span class="error"></span>
                   </div>
+
+                  <select class="form-select" name="type" aria-label="Default select example">
+                  <option selected value="user">Register as Student</option>
+                  <option value="adviser">Register as Teacher</option>
+                  </select>
 
                   <div class="form-group">
                      <label for="email">Email Adderss</label>
@@ -55,7 +60,7 @@
                   </div>
 
                   <div class="CTA">
-                     <input type="submit" value="Signup Now" id="submit">
+                     <input type="button" value="Signup Now" id="submit" onclick="registerForm()">
                      <a href="#" class="switch">I have an account</a>
                   </div>
                </form>

@@ -27,91 +27,15 @@
                 </div>
             </a>
         </li>
+        <?php if(Middleware::adviser($_SESSION['user'])){ ?>
         <h4 class="menu-text"><span>TEACHING</span> <i class="fas fa-ellipsis-h"></i> </h4>
         
-        <li>
-            <a href="subject.php" aria-expanded="false">
-                <div class="nav_icon_small">
-                    <img src="pages/img/menu-icon/2.svg" alt="">
-                </div>
-                <div class="nav_title">
-                    <span>CAP 101 </span>
-                </div>
-            </a>
-        </li>
-		<li>
-            <a href="subject.php" aria-expanded="false">
-                <div class="nav_icon_small">
-                    <img src="pages/img/menu-icon/2.svg" alt="">
-                </div>
-                <div class="nav_title">
-                    <span>CC 101 </span>
-                </div>
-            </a>
-        </li>
-        
+        <?php Subject::getSubjectListNav() ?>
+        <?php }else{  ?>
         <h4 class="menu-text"><span>Enrolled</span> <i class="fas fa-ellipsis-h"></i> </h4>
-        <li class="">
-            <a  href="invoice.html" aria-expanded="false">
-              <div class="nav_icon_small">
-                <i class="fas fa-chalkboard-teacher"></i>
-            </div>
-            <div class="nav_title">
-                <span>Invoice <span style="opacity: .8; font-size: 10px;">(BSIT 3)</span></span>
-            </div>
-            </a>
-        </li>
         
-        <li class="">
-            <a  href="invoice.html" aria-expanded="false">
-              <div class="nav_icon_small">
-                <i class="fas fa-chalkboard-teacher"></i>
-            </div>
-            <div class="nav_title">
-                <span>Invoice <span style="opacity: .8; font-size: 10px;">(BSIT 3)</span></span>
-            </div>
-            </a>
-        </li>
-		<li class="">
-            <a  href="invoice.html" aria-expanded="false">
-              <div class="nav_icon_small">
-                <i class="fas fa-chalkboard-teacher"></i>
-            </div>
-            <div class="nav_title">
-                <span>Invoice <span style="opacity: .8; font-size: 10px;">(BSIT 3)</span></span>
-            </div>
-            </a>
-        </li>
-		<li class="">
-            <a  href="invoice.html" aria-expanded="false">
-              <div class="nav_icon_small">
-                <i class="fas fa-chalkboard-teacher"></i>
-            </div>
-            <div class="nav_title">
-                <span>Invoice <span style="opacity: .8; font-size: 10px;">(BSIT 3)</span></span>
-            </div>
-            </a>
-        </li>
-		<li class="">
-            <a  href="invoice.html" aria-expanded="false">
-              <div class="nav_icon_small">
-                <i class="fas fa-chalkboard-teacher"></i>
-            </div>
-            <div class="nav_title">
-                <span>Invoice <span style="opacity: .8; font-size: 10px;">(BSIT 3)</span></span>
-            </div>
-            </a>
-        </li>
-		<li class="">
-            <a  href="invoice.html" aria-expanded="false">
-              <div class="nav_icon_small">
-                <i class="fas fa-chalkboard-teacher"></i>
-            </div>
-            <div class="nav_title">
-                <span>Invoice <span style="opacity: .8; font-size: 10px;">(BSIT 3)</span></span>
-            </div>
-            </a>
-        </li>
-        
+        <?php  Subject::getEnrolledSubjects(); ?>
+       
+        <?php } ?>
       </ul>
 </nav>

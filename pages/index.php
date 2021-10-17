@@ -85,8 +85,11 @@
                                  action
                                 </span>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" >
+                                    <?php if(!Middleware::adviser($_SESSION['user'])){ ?>
                                   <a class="dropdown-item f_s_16 f_w_600" href="#" data-toggle="modal" data-target="#joinclass"> Join Class</a>
+                                  <?php }else { ?>
                                   <a class="dropdown-item f_s_16 f_w_600"  href="#" data-toggle="modal" data-target="#createclass"> Create Class</a>
+                                   <?php } ?>
                                 </div>
                               </div>
                         </div>
@@ -95,13 +98,8 @@
             </div>
             
             <div class="row ">
-                <?php include  'components/subject-plate.php' ?>
-                <?php include  'components/subject-plate.php' ?>
-                <?php include  'components/subject-plate.php' ?>
-                <?php include  'components/subject-plate.php' ?>
-                <?php include  'components/subject-plate.php' ?>
-                <?php include  'components/subject-plate.php' ?>
-				
+               
+                <?php Subject::getSubjectList() ?>
             </div>
         </div>
     </div>

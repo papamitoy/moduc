@@ -10,29 +10,35 @@
         </div>
         <div class="modal-body">
         
-                            <form>
+                            <form action="#" id='addSubject'>
+
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Class name <span class="small">(required)</span></label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" name="className" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Section name </label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" name="sectionName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Subject name </label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" name="subjectName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Room </label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="email" name="room" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Description </label>
+                                    <textarea type="email" name="description" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></textarea>
+                                </div>
+                                </form>
                                 
-                            </form>
+                            
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Create Class</button>
+          <button type="button" class="btn btn-primary" id="addSubject" onclick="addSubject()">Create Class</button>
         </div>
       </div>
     </div>
