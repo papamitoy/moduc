@@ -73,7 +73,7 @@
                             <ol class="breadcrumb page_bradcam mb-0">
                                 <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
                                 <li class="breadcrumb-item active">Subjects</li>
-                            </ol>
+                            </ol>     
                         </div>
                         <div class="page_title_right">
 							
