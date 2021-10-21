@@ -59,13 +59,13 @@
 <!-- main content part here -->
  
  <!-- sidebar  -->
- <?php include  '../components/nav.php' ?>
+ <?php include  'components/nav.php' ?>
  <!--/ sidebar  -->
 
 
 <section class="main_content dashboard_part large_header_bg">
         <!-- menu  -->
-        <?php include  '../components/search-menu.php' ?>
+        <?php include  'components/search-menu.php' ?>
         <!--/ menu  -->
     <div class="main_content_iner ">
         <div class="container-fluid p-0 ">

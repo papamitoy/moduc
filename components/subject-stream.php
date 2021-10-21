@@ -23,7 +23,7 @@
                                     <div class="builder_select">
                                         <div class="row">
 											<div class="col-lg-12" >
-												<div style=" background-image: url("img/profilebox/1.jpg"); height: 200px; width: 100%; " class="white_box mb_30" style="background-image: linear-gradient(to right, rgba(0,177,232,2), rgba(0,234,211,2));">
+												<div style=" background-image: url("pages/img/profilebox/1.jpg"); height: 200px; width: 100%; " class="white_box mb_30" style="background-image: linear-gradient(to right, rgba(0,177,232,2), rgba(0,234,211,2));">
 
 													<div class="row justify-content-center">
 														<div class="col-lg-12">
@@ -75,7 +75,7 @@
 
 													<div  class="col-lg-12" >
 															<div class="white_card box_shadow">
-																<div class="white_card_header border_bottom_1px"><img style="display: inline-block" src="img/customers/1.png"><strong>&nbsp;&nbsp;Charles Lydon Abiero</strong></div>
+																<div class="white_card_header border_bottom_1px"><img style="display: inline-block" src="pages/img/customers/1.png"><strong>&nbsp;&nbsp;Charles Lydon Abiero</strong></div>
 																<!--end white_card_header border_bottom_1px-->
 																<div class="card-body">
 																	<div class="form-group row">
@@ -101,7 +101,7 @@
 													</div><br><br>
 													<div  class="col-lg-12  " >
 															<div class="white_card box_shadow">
-																<div class="white_card_header border_bottom_1px"><img style="display: inline-block" src="img/customers/1.png"><strong>&nbsp;&nbsp;Charles Lydon Abiero</strong></div>
+																<div class="white_card_header border_bottom_1px"><img style="display: inline-block" src="pages/img/customers/1.png"><strong>&nbsp;&nbsp;Charles Lydon Abiero</strong></div>
 																<!--end white_card_header border_bottom_1px-->
 																<div class="card-body">
 																	<div class="form-group row">
@@ -135,8 +135,8 @@
                                 </div>
 								
 								
-								<?php include  '../components/classwork.php' ?>
-								<?php include  '../components/people.php' ?>
+								<?php include  'components/classwork.php' ?>
+								<?php include  'components/people.php' ?>
 								
 								
                                 

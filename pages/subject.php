@@ -11,44 +11,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Analytic</title>
 
-    <link rel="icon" href="img/mini_logo.png" type="image/png">
+    <link rel="icon" href="pages/img/mini_logo.png" type="image/png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="pages/css/bootstrap.min.css" />
     <!-- themefy CSS -->
-    <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+    <link rel="stylesheet" href="pages/vendors/themefy_icon/themify-icons.css" />
     <!-- select2 CSS -->
-    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+    <link rel="stylesheet" href="pages/vendors/niceselect/css/nice-select.css" />
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css" />
+    <link rel="stylesheet" href="pages/vendors/owl_carousel/css/owl.carousel.css" />
     <!-- gijgo css -->
-    <link rel="stylesheet" href="vendors/gijgo/gijgo.min.css" />
+    <link rel="stylesheet" href="pages/vendors/gijgo/gijgo.min.css" />
     <!-- font awesome CSS -->
-    <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
-    <link rel="stylesheet" href="vendors/tagsinput/tagsinput.css" />
+    <link rel="stylesheet" href="pages/vendors/font_awesome/css/all.min.css" />
+    <link rel="stylesheet" href="pages/vendors/tagsinput/tagsinput.css" />
 
     <!-- date picker -->
-     <link rel="stylesheet" href="vendors/datepicker/date-picker.css" />
+     <link rel="stylesheet" href="pages/vendors/datepicker/date-picker.css" />
 
-     <link rel="stylesheet" href="vendors/vectormap-home/vectormap-2.0.2.css" />
+     <link rel="stylesheet" href="pages/vendors/vectormap-home/vectormap-2.0.2.css" />
      
      <!-- scrollabe  -->
-     <link rel="stylesheet" href="vendors/scroll/scrollable.css" />
+     <link rel="stylesheet" href="pages/vendors/scroll/scrollable.css" />
     <!-- datatable CSS -->
-    <link rel="stylesheet" href="vendors/datatable/css/jquery.dataTables.min.css" />
-    <link rel="stylesheet" href="vendors/datatable/css/responsive.dataTables.min.css" />
-    <link rel="stylesheet" href="vendors/datatable/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" href="pages/vendors/datatable/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="pages/vendors/datatable/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="pages/vendors/datatable/css/buttons.dataTables.min.css" />
     <!-- text editor css -->
-    <link rel="stylesheet" href="vendors/text_editor/summernote-bs4.css" />
+    <link rel="stylesheet" href="pages/vendors/text_editor/summernote-bs4.css" />
     <!-- morris css -->
-    <link rel="stylesheet" href="vendors/morris/morris.css">
+    <link rel="stylesheet" href="pages/vendors/morris/morris.css">
     <!-- metarial icon css -->
-    <link rel="stylesheet" href="vendors/material_icon/material-icons.css" />
+    <link rel="stylesheet" href="pages/vendors/material_icon/material-icons.css" />
 
     <!-- menu css  -->
-    <link rel="stylesheet" href="css/metisMenu.css">
+    <link rel="stylesheet" href="pages/css/metisMenu.css">
     <!-- style CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+    <link rel="stylesheet" href="pages/css/style.css" />
+    <link rel="stylesheet" href="pages/css/colors/default.css" id="colorSkinCSS">
 </head>
 <body class="crm_body_bg">
     
@@ -57,13 +57,13 @@
 <!-- main content part here -->
  
  <!-- sidebar  -->
- <?php include  '../components/nav.php' ?>
+ <?php include  'components/nav.php' ?>
  <!--/ sidebar  -->
 
 
 <section class="main_content dashboard_part large_header_bg">
         <!-- menu  -->
-        <?php include  '../components/search-menu.php' ?>
+        <?php include  'components/search-menu.php' ?>
         <!--/ menu  -->
 
 
@@ -88,7 +88,7 @@
 
 
             <!-- subject section -->
-            <?php include  '../components/subject-stream.php' ?>
+            <?php include  'components/subject-stream.php' ?>
             <!--/subject section -->
             
 			
@@ -125,35 +125,35 @@
                 <li>
                     <a href="#">
                         <div class="member_thumb">
-                         <img src="img/staf/1.png" alt="">
+                         <img src="pages/img/staf/1.png" alt="">
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <div class="member_thumb">
-                         <img src="img/staf/2.png" alt="">
+                         <img src="pages/img/staf/2.png" alt="">
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <div class="member_thumb">
-                         <img src="img/staf/3.png" alt="">
+                         <img src="pages/img/staf/3.png" alt="">
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <div class="member_thumb">
-                         <img src="img/staf/4.png" alt="">
+                         <img src="pages/img/staf/4.png" alt="">
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <div class="member_thumb">
-                         <img src="img/staf/5.png" alt="">
+                         <img src="pages/img/staf/5.png" alt="">
                         </div>
                     </a>
                 </li>
@@ -176,7 +176,7 @@
     
     <div class="CHATING_SENDER">
         <div class="SMS_thumb">
-            <img src="img/staf/1.png" alt="">
+            <img src="pages/img/staf/1.png" alt="">
         </div>
         <div class="SEND_SMS_VIEW">
             <P>Hi! Welcome .
@@ -190,7 +190,7 @@
             <P>Hello</P>
         </div>
         <div class="SMS_thumb">
-            <img src="img/staf/1.png" alt="">
+            <img src="pages/img/staf/1.png" alt="">
         </div>
     </div>
     
@@ -232,52 +232,52 @@
 </div>
 
 <!-- footer  -->
-<script src="js/jquery-3.4.1.min.js"></script>
+<script src="pages/js/jquery-3.4.1.min.js"></script>
 <!-- popper js -->
-<script src="js/popper.min.js"></script>
+<script src="pages/js/popper.min.js"></script>
 <!-- bootstarp js -->
-<script src="js/bootstrap.min.js"></script>
+<script src="pages/js/bootstrap.min.js"></script>
 <!-- sidebar menu  -->
-<script src="js/metisMenu.js"></script>
+<script src="pages/js/metisMenu.js"></script>
 <!-- waypoints js -->
-<script src="vendors/count_up/jquery.waypoints.min.js"></script>
+<script src="pages/vendors/count_up/jquery.waypoints.min.js"></script>
 <!-- waypoints js -->
-<script src="vendors/chartlist/Chart.min.js"></script>
+<script src="pages/vendors/chartlist/Chart.min.js"></script>
 <!-- counterup js -->
-<script src="vendors/count_up/jquery.counterup.min.js"></script>
+<script src="pages/vendors/count_up/jquery.counterup.min.js"></script>
 
 <!-- nice select -->
-<script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+<script src="pages/vendors/niceselect/js/jquery.nice-select.min.js"></script>
 <!-- owl carousel -->
-<script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+<script src="pages/vendors/owl_carousel/js/owl.carousel.min.js"></script>
 
 <!-- responsive table -->
-<script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
-<script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
-<script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
-<script src="vendors/datatable/js/buttons.flash.min.js"></script>
-<script src="vendors/datatable/js/jszip.min.js"></script>
-<script src="vendors/datatable/js/pdfmake.min.js"></script>
-<script src="vendors/datatable/js/vfs_fonts.js"></script>
-<script src="vendors/datatable/js/buttons.html5.min.js"></script>
-<script src="vendors/datatable/js/buttons.print.min.js"></script>
+<script src="pages/vendors/datatable/js/jquery.dataTables.min.js"></script>
+<script src="pages/vendors/datatable/js/dataTables.responsive.min.js"></script>
+<script src="pages/vendors/datatable/js/dataTables.buttons.min.js"></script>
+<script src="pages/vendors/datatable/js/buttons.flash.min.js"></script>
+<script src="pages/vendors/datatable/js/jszip.min.js"></script>
+<script src="pages/vendors/datatable/js/pdfmake.min.js"></script>
+<script src="pages/vendors/datatable/js/vfs_fonts.js"></script>
+<script src="pages/vendors/datatable/js/buttons.html5.min.js"></script>
+<script src="pages/vendors/datatable/js/buttons.print.min.js"></script>
 
 <!-- datepicker  -->
-<script src="vendors/datepicker/datepicker.js"></script>
-<script src="vendors/datepicker/datepicker.en.js"></script>
-<script src="vendors/datepicker/datepicker.custom.js"></script>
+<script src="pages/vendors/datepicker/datepicker.js"></script>
+<script src="pages/vendors/datepicker/datepicker.en.js"></script>
+<script src="pages/vendors/datepicker/datepicker.custom.js"></script>
 
-<script src="js/chart.min.js"></script>
-<script src="vendors/chartjs/roundedBar.min.js"></script>
+<script src="pages/js/chart.min.js"></script>
+<script src="pages/vendors/chartjs/roundedBar.min.js"></script>
 
 <!-- progressbar js -->
-<script src="vendors/progressbar/jquery.barfiller.js"></script>
+<script src="pages/vendors/progressbar/jquery.barfiller.js"></script>
 <!-- tag input -->
-<script src="vendors/tagsinput/tagsinput.js"></script>
+<script src="pages/vendors/tagsinput/tagsinput.js"></script>
 <!-- text editor js -->
 
 
-<script src="js/custom.js"></script>
+<script src="pages/js/custom.js"></script>
 </body>
 
 <!-- Mirrored from demo.dashboardpack.com/analytic-html/empty_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Aug 2021 13:40:53 GMT -->
